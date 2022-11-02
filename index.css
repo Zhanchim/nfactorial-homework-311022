@@ -1,0 +1,114 @@
+.div1,.div6{
+    background-color: red;
+}
+.div2{
+    background-color: blue;
+}
+.div3,.div5{
+    background-color: green;
+}
+.div4{
+    background-color: orange;
+}
+
+
+.row1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    margin: 5px;
+    height: 25px;
+}
+
+.row2{
+    display: grid;
+    grid-template-columns: 95% 5%;
+    justify-content: center;
+    margin: 5px;
+    height: 25px;
+}
+
+.row3{
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    justify-content: center;
+    margin: 5px;
+    height: 25px;
+}
+
+.row4{
+    display: grid;
+    grid-template-columns: 95% 5%;
+    justify-content: center;
+    margin: 5px;
+    height: 25px;
+}
+
+.row5{
+    display: grid;
+    grid-template-columns: 100%;
+    margin: 5px;
+    height: 25px;
+}
+.div5{
+    display: grid;
+    justify-content: center;    
+}
+.div6{
+    height: 15px;
+    width:15px;
+    margin: 5px;
+}
+
+.row6{
+    display: grid;
+    grid-template-columns: 48% 4% 48%;
+    justify-content: center;
+    margin: 5px;
+    height: 25px;
+}
+.container {
+    display: grid; 
+    grid-template-columns: 1fr 28fr;
+    height: 25px;
+}
+.container3 {
+    display: grid; 
+    grid-template-rows: 1fr 1fr 1fr;
+    width:auto;
+    height: 25px;
+}
+.container1 {
+    display: grid; 
+    grid-template-columns: 1fr 6fr 1fr 6fr 1fr 6fr 1fr 6fr 1fr;
+    justify-content: center;
+}
+
+.container1 div:nth-child(even){
+    background-color: green;
+    height: 25px;
+}
+
+.container1 div:nth-child(odd){
+    background-color: orange;
+    height: 25px;
+}
+.container2 {
+    display: grid; 
+    grid-template-columns: 15fr 1fr 15fr 1fr 15fr 1fr 15fr 1fr 15fr;
+    justify-content: center;
+}
+.container2 div:nth-child(even){
+    background-color: green;
+    height: 25px;
+}
+
+.container2 div:nth-child(odd){
+    background-color: orange;
+    height: 25px;
+}
+.container2 {
+    display: grid; 
+    grid-template-rows: 15fr 1fr 15fr 1fr 15fr 1fr 15fr 1fr 15fr;
+    justify-content: center;
+}
